@@ -43,3 +43,45 @@ This project demonstrates how Python can interact with a MySQL database to perfo
 1. **Clone the repository**
 ```bash
 git clone https://github.com/Avika26/student-management-system-python.git
+```
+2. **Install dependencies**
+```bash
+pip install mysql-connector-python
+```
+3. **Create database & table in MySQL**
+```bash
+CREATE DATABASE student_db;
+
+USE student_db;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    course VARCHAR(50),
+    city VARCHAR(50)
+);
+```
+4. **Update MySQL credentials in main.py**
+```bash
+user="root", password="YOUR_PASSWORD"
+```
+5. **Run the program**
+```bash
+python main.py
+```
+
+## 📸 Screenshots
+
+### ➕ Add Student
+![Add Student](screenshots/add_std.png)
+
+### 📄 View Students
+![View Students](screenshots/view_std.png)
+
+### 🗄️ Database Result
+![SQL Result](screenshots/sql_result.png)
+
+
+
+
