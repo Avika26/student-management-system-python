@@ -82,6 +82,15 @@ python main.py
 ### 🗄️ Database Result
 ![SQL Result](sql_result.png)
 
+## 🎯 Learning Outcomes
+- Python-MySQL integration
+- Performing CRUD operations
+- Menu-driven application development
+- Project structuring for GitHub
+
+## 👩‍💻 Author
+**Avika Aswal**
+
 
 
 
