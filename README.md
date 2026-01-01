@@ -74,13 +74,14 @@ python main.py
 ## 📸 Screenshots
 
 ### ➕ Add Student
-![Add Student](screenshots/add_std.png)
+![Add Student](add_std.png)
 
 ### 📄 View Students
-![View Students](screenshots/view_std.png)
+![View Students](view_std.png)
 
 ### 🗄️ Database Result
-![SQL Result](screenshots/sql_result.png)
+![SQL Result](sql_result.png)
+
 
 
 
